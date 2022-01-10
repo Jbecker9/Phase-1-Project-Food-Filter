@@ -1,0 +1,90 @@
+{
+    "Red Sauce Pasta":{
+        "link": "https://www.foodnetwork.com/recipes/classic-red-sauce-3362824",
+        "ingredients": {
+        "one": "Tomatoes",
+        "two": "Extra-Virgin Olive Oil",
+        "three": "Red Onion",
+        "four": "Garlic Cloves",
+        "five": "Red Pepper (Optional)",
+        "six": "Salt",
+        "seven": "Pepper",
+        "eight": "Basil"
+        }, 
+        "directions": {
+        "StepOne": "Puree Tomatoes",
+        "StepTwo": "Heat Olive Oil, add Garlic.",
+        "StepThree": "Add Tomatoes, Salt and Pepper to taste.",
+        "StepFour": "Simmer for 30 minutes, add Basil when finsihed."
+        }
+    },
+    "Pesto":{
+        "ingredients":{
+            "one": "Basil",
+            "two": "Pine Nuts",
+            "three": "Garlic",
+            "four": "Extra-Virgin Olive Oil",
+            "five": "Parmesean Cheese"
+            },
+        "directions": {
+            "StepOne": "Combine: Basil, Pine Nuts, and Garlic in food processor.",
+            "StepTwo": "Slowly pour in oil while the machine is running on minimal speed.",
+            "StepThree": "Add cheese and process slightly."
+            },
+            "link": "https://cooking.nytimes.com/recipes/2653-basic-pesto"
+    },
+    "Stir-Fry": {
+        "ingredients":{
+
+        },
+        "directions":{
+
+        },
+        "link":"https://www.momontimeout.com/easy-chicken-stir-fry-recipe/"
+    },
+    "Egg-Roll":{
+        "ingredients":{
+
+        },
+        "directions":{
+            
+        },
+        "link": "https://www.dinneratthezoo.com/homemade-egg-rolls/"
+    },
+    "Chicken Curry":{
+        "ingredients":{
+
+        },
+        "directions":{
+            
+        },
+        "link":"https://www.recipetineats.com/chicken-curry/"
+    },
+    "Thai Peanut Curry":{
+        "ingredients":{
+
+        },
+        "directions":{
+            
+        },
+        "link":"https://www.theendlessmeal.com/thai-peanut-curry/"
+    },
+    "Hamburger":{
+        "ingredients":{
+
+        },
+        "directions":{
+            
+        },
+        "link": "https://www.aspicyperspective.com/best-hamburger-patty-recipe/"
+    },
+    "Sausage Gravy and Biscuits":{
+        "ingredients":{
+
+        },
+        "directions":{
+            
+        },
+        "link":"https://www.allrecipes.com/recipe/216391/easy-sausage-gravy-and-biscuits/"
+    }
+}
