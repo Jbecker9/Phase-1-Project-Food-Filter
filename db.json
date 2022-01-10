@@ -9,14 +9,9 @@
             "six": "Salt",
             "seven": "Pepper",
             "eight": "Basil"
-        }, 
-        "directions": {
-            "StepOne": "Puree Tomatoes",
-            "StepTwo": "Heat Olive Oil, add Garlic.",
-            "StepThree": "Add Tomatoes, Salt and Pepper to taste.",
-            "StepFour": "Simmer for 30 minutes, add Basil when finsihed."
         },
-        "link": "https://www.foodnetwork.com/recipes/classic-red-sauce-3362824"
+        "link": "https://www.foodnetwork.com/recipes/classic-red-sauce-3362824",
+        "YTLink": "https://www.youtube.com/watch?v=ctRo3pmFaKQ"
     },
     "Pesto":{
         "ingredients":{
@@ -26,65 +21,62 @@
             "four": "Extra-Virgin Olive Oil",
             "five": "Parmesean Cheese"
             },
-        "directions": {
-            "StepOne": "Combine: Basil, Pine Nuts, and Garlic in food processor.",
-            "StepTwo": "Slowly pour in oil while the machine is running on minimal speed.",
-            "StepThree": "Add cheese and process slightly."
-            },
-            "link": "https://cooking.nytimes.com/recipes/2653-basic-pesto"
+            "link": "https://cooking.nytimes.com/recipes/2653-basic-pesto",
+            "YTLink":"https://www.youtube.com/watch?v=2IHXuIDIJ9Q"
     },
     "Stir-Fry": {
         "ingredients":{
-
         },
-        "directions":{
-
-        },
-        "link":"https://www.momontimeout.com/easy-chicken-stir-fry-recipe/"
+        "link":"https://www.momontimeout.com/easy-chicken-stir-fry-recipe/",
+        "YTLink": "https://www.youtube.com/watch?v=L0d3MfTTnTY"
     },
     "Egg-Roll":{
-        "ingredients":{
-
+        "ingredients":{   
         },
-        "directions":{
-            
-        },
-        "link": "https://www.dinneratthezoo.com/homemade-egg-rolls/"
+        "link": "https://www.dinneratthezoo.com/homemade-egg-rolls/",
+        "YTLink":"https://www.youtube.com/watch?v=QanLLhaeJRw"
     },
     "Chicken Curry":{
-        "ingredients":{
-
+        "ingredients":{  
         },
-        "directions":{
-            
-        },
-        "link":"https://www.recipetineats.com/chicken-curry/"
+        "link":"https://www.recipetineats.com/chicken-curry/",
+        "YTLink":"https://www.youtube.com/watch?v=87gx9-8ksJU"
     },
     "Thai Peanut Curry":{
-        "ingredients":{
-
+        "ingredients":{ 
         },
-        "directions":{
-            
-        },
-        "link":"https://www.theendlessmeal.com/thai-peanut-curry/"
+        "link":"https://www.theendlessmeal.com/thai-peanut-curry/",
+        "YTLink":"https://www.youtube.com/watch?v=F_dYsfrBKZo"
     },
     "Hamburger":{
-        "ingredients":{
-
+        "ingredients":{  
         },
-        "directions":{
-            
-        },
-        "link": "https://www.aspicyperspective.com/best-hamburger-patty-recipe/"
+        "link": "https://www.aspicyperspective.com/best-hamburger-patty-recipe/",
+        "YTLink": "https://www.youtube.com/watch?v=iM_KMYulI_s"
     },
     "Sausage Gravy and Biscuits":{
         "ingredients":{
-
         },
-        "directions":{
-            
+        "link":"https://www.allrecipes.com/recipe/216391/easy-sausage-gravy-and-biscuits/",
+        "YTLink": "https://www.youtube.com/watch?v=5awWcEEofVQ"
+    },
+    "Birria Tacos": {
+        "ingredients":{
         },
-        "link":"https://www.allrecipes.com/recipe/216391/easy-sausage-gravy-and-biscuits/"
+        "link": "https://houseofyumm.com/beef-birria-and-birria-tacos/",
+        "YTLink": "https://www.youtube.com/watch?v=1nHvSLi1sWs"
+    },
+    "Tamale":{
+        "ingredients":{
+            "one": "Masa",
+            "two": "Beef Broth",
+            "three": "Baking Powder",
+            "four": "Salt",
+            "five": "Cumin",
+            "six": "Lard",
+            "seven": "Dried Corn Husks"
+        },
+        "link": "https://tastesbetterfromscratch.com/mexican-tamales/",
+        "YTLink": "https://www.youtube.com/watch?v=akA_Z9Xmnvc"
     }
 }
