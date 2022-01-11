@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 addTitle()
+addSubtitle()
 })
 const body = document.body
 
@@ -13,4 +14,13 @@ function addTitle(){
         title.id = "title"
         title.innerHTML = "<center>Food World!</center>"
         titleBox.append(title)
+}
+
+function addSubtitle(){
+    const subTitleBox = document.createElement("div")
+        subTitleBox.id = 'subtitle-box'
+        document.body.append(subTitleBox)
+    const subTitle = document.createElement("h2")
+        subTitle.innerHTML = '<center>Cook around the <span>world!</span> Never leave the house!</center>'
+        subTitleBox.append(subTitle)
 }
