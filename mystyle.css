@@ -5,3 +5,7 @@
 #title-box {
     color: blue
 }
+
+.img-row {
+    display: inline-block;
+}

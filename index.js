@@ -30,9 +30,18 @@ function addSubtitle(){
 }
 
 function addImgBar(){
-    const ImgBarBox = document.createElement("div")
-        ImgBarBox.id = "ImgBar-Box"
-        document.body.append(ImgBarBox)
+    const imgBarBox = document.createElement("div")
+        imgBarBox.id = "ImgBar-Box"
+        document.body.append(imgBarBox)
+        fetch("http://localhost:3000/Recipes")
+            .then(resp => resp.json())
+            .then(recipeData => recipeData.forEach(recipe =>{
+                const imgLi = document.createElement("ul")
+                    imgBarBox.append(imgLi)
+                const imgPic = document.createElement("img")
+                    imgPic.src = `${recipe.ImgLink}`
+                    imgLi.appendChild(imgPic)
+            }))
         // Render All Images
 }
 
