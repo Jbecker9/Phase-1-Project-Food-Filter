@@ -1,93 +1,105 @@
-{ "Recipes": {
-    "Red Sauce Pasta":{
-        "ingredients": {
-            "one": "Tomatoes",
-            "two": "Extra-Virgin Olive Oil",
-            "three": "Red Onion",
-            "four": "Garlic Cloves",
-            "five": "Red Pepper (Optional)",
-            "six": "Salt",
-            "seven": "Pepper",
-            "eight": "Basil"
-        },
-        "link": "https://www.foodnetwork.com/recipes/classic-red-sauce-3362824",
-        "YTLink": "https://www.youtube.com/watch?v=ctRo3pmFaKQ",
-        "ImgLink": "https://i1.wp.com/annavoloshyna.com/wp-content/uploads/2020/03/Penne-1.jpg?fit=1001%2C1500&ssl=1"
+{ "Recipes": [
+    {
+    "recipeName": "Red Sauce Pasta",
+    "ingredients":
+            "Tomatoes, Extra-Virgin Olive Oil, Red Onion, Garlic Cloves, Red Pepper (Optional), Salt, Pepper, Basil",
+        "link": 
+            "https://www.foodnetwork.com/recipes/classic-red-sauce-3362824",
+        "YTLink": 
+            "https://www.youtube.com/watch?v=ctRo3pmFaKQ",
+        "ImgLink": 
+            "https://i1.wp.com/annavoloshyna.com/wp-content/uploads/2020/03/Penne-1.jpg?fit=1001%2C1500&ssl=1"
     },
-    "Pesto":{
-        "ingredients":{
-            "one": "Basil",
-            "two": "Pine Nuts",
-            "three": "Garlic",
-            "four": "Extra-Virgin Olive Oil",
-            "five": "Parmesean Cheese"
-            },
-            "link": "https://cooking.nytimes.com/recipes/2653-basic-pesto",
-            "YTLink":"https://www.youtube.com/watch?v=2IHXuIDIJ9Q",
-            "ImgLink": "https://recipetineats.com/wp-content/uploads/2019/02/Pesto-Pasta_0.jpg"
+    {
+    "recipeName": "Pesto",
+    "ingredients": "Basil, Pine Nuts, Garlic, Extra-Virgin Olive Oil, Parmesean Cheese",
+        "link": 
+            "https://cooking.nytimes.com/recipes/2653-basic-pesto",
+        "YTLink":
+            "https://www.youtube.com/watch?v=2IHXuIDIJ9Q",
+        "ImgLink": 
+            "https://recipetineats.com/wp-content/uploads/2019/02/Pesto-Pasta_0.jpg"
     },
-    "Stir-Fry": {
-        "ingredients":{
-        },
-        "link":"https://www.momontimeout.com/easy-chicken-stir-fry-recipe/",
-        "YTLink": "https://www.youtube.com/watch?v=L0d3MfTTnTY",
-        "ImgLink" : "https://cafedelites.com/wp-content/uploads/2018/03/Sesame-Beef-Stir-Fry-4.jpg"
+    {
+    "recipeName": "Stir-Fry",
+    "ingredients":"",
+        "link":
+            "https://www.momontimeout.com/easy-chicken-stir-fry-recipe/",
+        "YTLink": 
+            "https://www.youtube.com/watch?v=L0d3MfTTnTY",
+        "ImgLink" : 
+            "https://cafedelites.com/wp-content/uploads/2018/03/Sesame-Beef-Stir-Fry-4.jpg"
     },
-    "Egg-Roll":{
-        "ingredients":{   
-        },
-        "link": "https://www.dinneratthezoo.com/homemade-egg-rolls/",
-        "YTLink":"https://www.youtube.com/watch?v=QanLLhaeJRw",
-        "ImgLink": "https://cafedelites.com/wp-content/uploads/2018/03/Sesame-Beef-Stir-Fry-4.jpg"
+    {
+    "recipeName": "Egg-Roll",
+        "ingredients":"",
+        "link": 
+            "https://www.dinneratthezoo.com/homemade-egg-rolls/",
+        "YTLink":
+            "https://www.youtube.com/watch?v=QanLLhaeJRw",
+        "ImgLink": 
+            "https://cafedelites.com/wp-content/uploads/2018/03/Sesame-Beef-Stir-Fry-4.jpg"
     },
-    "Chicken Curry":{
-        "ingredients":{  
-        },
-        "link":"https://www.recipetineats.com/chicken-curry/",
-        "YTLink":"https://www.youtube.com/watch?v=87gx9-8ksJU",
-        "imgLink": "https://www.cookingclassy.com/wp-content/uploads/2018/08/chicken-curry-11.jpg"
+    {
+        "recipeName": "Chicken Curry",
+        "ingredients":"",
+        "link":
+            "https://www.recipetineats.com/chicken-curry/",
+        "YTLink":
+            "https://www.youtube.com/watch?v=87gx9-8ksJU",
+        "imgLink": 
+            "https://www.cookingclassy.com/wp-content/uploads/2018/08/chicken-curry-11.jpg"
     },
-    "Thai Peanut Curry":{
-        "ingredients":{ 
-        },
-        "link":"https://www.theendlessmeal.com/thai-peanut-curry/",
-        "YTLink":"https://www.youtube.com/watch?v=F_dYsfrBKZo",
-        "ImgLink": "https://urbanblisslife.com/wp-content/uploads/2014/09/Thai-Peanut-Curry-CloseUp-Side.jpg"
+    {
+        "recipeName": "Thai Peanut Curry",
+        "ingredients":"",
+        "link":
+            "https://www.theendlessmeal.com/thai-peanut-curry/",
+        "YTLink":
+            "https://www.youtube.com/watch?v=F_dYsfrBKZo",
+        "ImgLink": 
+            "https://urbanblisslife.com/wp-content/uploads/2014/09/Thai-Peanut-Curry-CloseUp-Side.jpg"
     },
-    "Hamburger":{
-        "ingredients":{  
-        },
-        "link": "https://www.aspicyperspective.com/best-hamburger-patty-recipe/",
-        "YTLink": "https://www.youtube.com/watch?v=iM_KMYulI_s",
-        "ImgLink": "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg"
+    {
+        "recipeName": "Hamburger",
+        "ingredients":"",
+        "link": 
+            "https://www.aspicyperspective.com/best-hamburger-patty-recipe/",
+        "YTLink": 
+            "https://www.youtube.com/watch?v=iM_KMYulI_s",
+        "ImgLink": 
+            "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg"
     },
-    "Sausage Gravy and Biscuits":{
-        "ingredients":{
-        },
-        "link":"https://www.allrecipes.com/recipe/216391/easy-sausage-gravy-and-biscuits/",
-        "YTLink": "https://www.youtube.com/watch?v=5awWcEEofVQ",
-        "ImgLink": "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg"
+    {
+        "recipeName": "Sausage Gravy and Biscuits",
+        "ingredients":"",
+        "link":
+            "https://www.allrecipes.com/recipe/216391/easy-sausage-gravy-and-biscuits/",
+        "YTLink": 
+            "https://www.youtube.com/watch?v=5awWcEEofVQ",
+        "ImgLink": 
+            "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg"
     },
-    "Birria Tacos": {
-        "ingredients":{
-        },
-        "link": "https://houseofyumm.com/beef-birria-and-birria-tacos/",
-        "YTLink": "https://www.youtube.com/watch?v=1nHvSLi1sWs",
-        "ImgLink": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-202104-birriatacos-014-1619806491.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*"
+    {
+        "recipeName": "Birria Tacos",
+        "ingredients":"",
+        "link": 
+            "https://houseofyumm.com/beef-birria-and-birria-tacos/",
+        "YTLink": 
+            "https://www.youtube.com/watch?v=1nHvSLi1sWs",
+        "ImgLink": 
+            "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-202104-birriatacos-014-1619806491.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*"
     },
-    "Tamale":{
-        "ingredients":{
-            "one": "Masa",
-            "two": "Beef Broth",
-            "three": "Baking Powder",
-            "four": "Salt",
-            "five": "Cumin",
-            "six": "Lard",
-            "seven": "Dried Corn Husks"
-        },
-        "link": "https://tastesbetterfromscratch.com/mexican-tamales/",
-        "YTLink": "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
-        "ImgLink": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Chicken-Tamales_EXPS_HC17_50905_C12_16_2b.jpg"
+    {
+        "recipeName": "Tamale",
+        "ingredients":
+            "Masa, Beef Broth, Baking Powder, Salt, Cumin, Lard, Dried Corn Husks",
+        "link": 
+            "https://tastesbetterfromscratch.com/mexican-tamales/",
+        "YTLink": 
+            "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
+        "ImgLink": 
+            "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Chicken-Tamales_EXPS_HC17_50905_C12_16_2b.jpg"
         }
-    }
+    ]
 }
