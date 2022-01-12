@@ -37,6 +37,7 @@ function addImgBar(){
             .then(resp => resp.json())
             .then(recipeData => recipeData.forEach(recipe =>{
                 const imgLi = document.createElement("ul")
+                    imgLi.className = "img-row"
                     imgBarBox.append(imgLi)
                 const imgPic = document.createElement("img")
                     imgPic.src = `${recipe.ImgLink}`
