@@ -8,7 +8,7 @@
             "https://www.foodnetwork.com/recipes/classic-red-sauce-3362824",
         "YTLink": 
             "https://www.youtube.com/watch?v=ctRo3pmFaKQ",
-        "ImgLink": 
+        "imgLink": 
             "https://i1.wp.com/annavoloshyna.com/wp-content/uploads/2020/03/Penne-1.jpg?fit=1001%2C1500&ssl=1"
     },
     {
@@ -19,7 +19,7 @@
             "https://cooking.nytimes.com/recipes/2653-basic-pesto",
         "YTLink":
             "https://www.youtube.com/watch?v=2IHXuIDIJ9Q",
-        "ImgLink": 
+        "imgLink": 
             "https://recipetineats.com/wp-content/uploads/2019/02/Pesto-Pasta_0.jpg"
     },
     {
@@ -30,7 +30,7 @@
             "https://www.momontimeout.com/easy-chicken-stir-fry-recipe/",
         "YTLink": 
             "https://www.youtube.com/watch?v=L0d3MfTTnTY",
-        "ImgLink" : 
+        "imgLink" : 
             "https://cafedelites.com/wp-content/uploads/2018/03/Sesame-Beef-Stir-Fry-4.jpg"
     },
     {
@@ -41,7 +41,7 @@
             "https://www.dinneratthezoo.com/homemade-egg-rolls/",
         "YTLink":
             "https://www.youtube.com/watch?v=QanLLhaeJRw",
-        "ImgLink": 
+        "imgLink": 
             "https://cafedelites.com/wp-content/uploads/2018/03/Sesame-Beef-Stir-Fry-4.jpg"
     },
     {
@@ -63,7 +63,7 @@
             "https://www.theendlessmeal.com/thai-peanut-curry/",
         "YTLink":
             "https://www.youtube.com/watch?v=F_dYsfrBKZo",
-        "ImgLink": 
+        "imgLink": 
             "https://urbanblisslife.com/wp-content/uploads/2014/09/Thai-Peanut-Curry-CloseUp-Side.jpg"
     },
     {
@@ -74,7 +74,7 @@
             "https://www.aspicyperspective.com/best-hamburger-patty-recipe/",
         "YTLink": 
             "https://www.youtube.com/watch?v=iM_KMYulI_s",
-        "ImgLink": 
+        "imgLink": 
             "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg"
     },
     {
@@ -85,7 +85,7 @@
             "https://www.allrecipes.com/recipe/216391/easy-sausage-gravy-and-biscuits/",
         "YTLink": 
             "https://www.youtube.com/watch?v=5awWcEEofVQ",
-        "ImgLink": 
+        "imgLink": 
             "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg"
     },
     {
@@ -96,7 +96,7 @@
             "https://houseofyumm.com/beef-birria-and-birria-tacos/",
         "YTLink": 
             "https://www.youtube.com/watch?v=1nHvSLi1sWs",
-        "ImgLink": 
+        "imgLink": 
             "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-202104-birriatacos-014-1619806491.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*"
     },
     {
@@ -108,7 +108,7 @@
             "https://tastesbetterfromscratch.com/mexican-tamales/",
         "YTLink": 
             "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
-        "ImgLink": 
+        "imgLink": 
             "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Chicken-Tamales_EXPS_HC17_50905_C12_16_2b.jpg"
         }
     ]

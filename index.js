@@ -40,7 +40,7 @@ function addImgBar(){
                     imgLi.className = "img-row"
                     imgBarBox.append(imgLi)
                 const imgPic = document.createElement("img")
-                    imgPic.src = `${recipe.ImgLink}`
+                    imgPic.src = `${recipe.imgLink}`
                     imgLi.appendChild(imgPic)
             }))
         // Render All Images
