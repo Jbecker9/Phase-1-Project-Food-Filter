@@ -1,9 +1,14 @@
+const imgBarBox = document.createElement("div")
 document.addEventListener("DOMContentLoaded", () => {
 addTitle()
 addSubtitle()
-addImgBar()
-renderRecipes()
-ingredientForm()
+fetch("http://localhost:3000/Recipes")
+            .then(resp => resp.json())
+            .then(recipeData => recipeData.forEach(recipe => {
+                addImgBar(recipe)
+            }))
+
+createSelectedRecipe()
 userRecipe()
 })
 const body = document.body
@@ -29,55 +34,50 @@ function addSubtitle(){
         subTitleBox.append(subTitleOne)
 }
 
-function addImgBar(){
-    const imgBarBox = document.createElement("div")
+
+function addImgBar(rec){
         imgBarBox.id = "ImgBar-Box"
         document.body.append(imgBarBox)
-        fetch("http://localhost:3000/Recipes")
-            .then(resp => resp.json())
-            .then(recipeData => recipeData.forEach(recipe =>{
                 const imgLi = document.createElement("ul")
                     imgLi.className = "img-row"
                     imgBarBox.append(imgLi)
                 const imgPic = document.createElement("img")
-                    imgPic.src = `${recipe.imgLink}`
+                    imgPic.src = rec.imgLink
+                    imgPic.id = rec.id
+                    imgPic.style.width = '150px'
+                    imgPic.style.height = '150px'
+                    imgPic.addEventListener("click",() => {
+                        const selectRec = document.getElementById("selected-recipe")
+                        const selRecName = document.createElement("h2")
+                            selRecName.innerHTML = rec.recipeName
+                            selectRec.append(selRecName)
+                        const selRecImg = document.createElement("img")
+                            selRecImg.src = rec.imgLink
+                            selRecImg.style.width = '500px'
+                            selRecImg.style.height = '500px'
+                            selectRec.append(selRecImg)
+                        const recUl = document.createElement("ul")
+                            let ingArray = []
+                            const splitIng = rec.ingredients.split('\,')
+                            ingArray = [...splitIng]
+                            ingArray.forEach(ingredient => {
+                                const ingLi = document.createElement("li")
+                                    ingLi.innerText = ingredient
+                                recUl.appendChild(ingLi)
+                            })
+                            selectRec.append(recUl)
+                    })
                     imgLi.appendChild(imgPic)
-            }))
+                const imgName = document.createElement('h3')
+                    imgName.innerText = rec.recipeName
+                    imgLi.append(imgName)
+            }
         // Render All Images
-}
 
-function renderRecipes(){
-    fetch("http://localhost:3000/Recipes")
-        .then(resp => resp.json())
-        .then(data => console.log(data))
-        // clean up db.json file
-}
-
-function ingredientForm(){
-    const ingForm = document.createElement("form")
-        ingForm.id = 'ingredient-form'
-        document.body.append(ingForm)
-    const ingInput = document.createElement("input")
-        ingInput.id = 'ingredient-input'
-        ingInput.name = "user-ingredients"
-        ingInput.value = "Pack your Ingredients!"
-        ingForm.appendChild(ingInput)
-    const flyButton = document.createElement("button")
-        flyButton.id = "fly-button"
-        flyButton.innerHTML = "Let's Fly! &#9992;"
-    ingForm.appendChild(flyButton)
-    // add event listener for button
-        // creates div for listed recipes
-        // filters user listed ingredients
-        // renders matching recipes
-            // shows recipe image and name
-            // image has event listener (click)
-            // click shows selected recipe
-                // recipe name
-                // image
-                // listed ingredients
-                // button event listener (click)
-                    // takes you to youtube video
+function createSelectedRecipe(){
+    const selectedRecipe = document.createElement("div")
+        selectedRecipe.id = "selected-recipe"
+        document.body.append(selectedRecipe)
 }
 
 function userRecipe(){
@@ -85,28 +85,53 @@ function userRecipe(){
         userForm.id = "user-form"
         userForm.style.display = 'inline-block'
         document.body.append(userForm)
-    const userNameInput = document.createElement("input")
-        userNameInput.id = "user-id-input"
-        userNameInput.name = "user-name-input"
-        userNameInput.value = "Recipe Name"
+        const userNameInput = document.createElement("input")
+        userNameInput.name = "nameInput"
+        userNameInput.placeholder = "Recipe Name"
+        userNameInput.value = ""
         userForm.appendChild(userNameInput)
-    const userIngInput = document.createElement("input")
-        userIngInput.id = "user-ing-input"
-        userIngInput.name = "user-img-input"
-        userIngInput.value = "Ingredients"
+        const userIngInput = document.createElement("input")
+        userIngInput.name = "ingInput"
+        userIngInput.placeholder = "Ingredients"
+        userIngInput.value = ""
         userForm.appendChild(userIngInput)
-    const userImgInput = document.createElement("input")
-        userImgInput.id = "user-img-input"
-        userImgInput.name = "user-img-input"
-        userImgInput.vale = "Show off the final product (link only)"
+        const userImgInput = document.createElement("input")
+        userImgInput.name = "imgInput"
+        userImgInput.placeholder = "Picture (link only)"
+        userImgInput.value = ""
         userForm.appendChild(userImgInput)
-    const userYTInput = document.createElement("input")
-        userYTInput.id = "user-YT-input"
-        userYTInput.name = "user-YT-input"
-        userYTInput.value = "Got an instructional video?"
+        const userYTInput = document.createElement("input")
+        userYTInput.name = "yTInput"
+        userYTInput.placeholder = "Have a YouTube video?"
+        userYTInput.value= ""
         userForm.appendChild(userYTInput)
-    // center form
-    // post method
-    // add new user object with displayed recipe
+        const submitNewRec = document.createElement("button")
+        submitNewRec.innerText = "Show off your recipe!"
+        userForm.appendChild(submitNewRec)
+        userForm.addEventListener("submit", (e) => {
+            addImgBar(e)
+            // postNewRecipe(e)
+        })
+        // center form
+        // post method
+        // add new user object with displayed recipe
 }
 
+function postNewRecipe(event){
+    let recObject = {
+        recipeName: event.target.nameInput.value,
+        ingredients: event.target.ingInput.value,
+        imgLink: event.target.imgInput.value,
+        YTLink: event.target.yTInput.value
+    }
+    fetch("http://localhost:3000/Recipes", {
+        method: "POST",
+        headers: {
+            "Content-type": "application/json",
+            Accept: "application/json"
+        },
+        body: JSON.stringify(recObject)
+    })
+        .then(resp => resp.json())
+        .then()
+}
