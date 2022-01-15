@@ -5,63 +5,55 @@
       "recipeName": "Red Sauce Pasta",
       "ingredients": "Tomatoes, Extra-Virgin Olive Oil, Red Onion, Garlic Cloves, Red Pepper (Optional), Salt, Pepper, Basil",
       "link": "https://www.foodnetwork.com/recipes/classic-red-sauce-3362824",
-      "YTLink": "https://www.youtube.com/watch?v=ctRo3pmFaKQ",
+      "yTLink": "https://www.youtube.com/watch?v=ctRo3pmFaKQ",
       "imgLink": "https://i1.wp.com/annavoloshyna.com/wp-content/uploads/2020/03/Penne-1.jpg?fit=1001%2C1500&ssl=1"
-    },
-    {
-      "id": 2,
-      "recipeName": "Pesto",
-      "ingredients": "Basil, Pine Nuts, Garlic, Extra-Virgin Olive Oil, Parmesean Cheese",
-      "link": "https://cooking.nytimes.com/recipes/2653-basic-pesto",
-      "YTLink": "https://www.youtube.com/watch?v=2IHXuIDIJ9Q",
-      "imgLink": "https://recipetineats.com/wp-content/uploads/2019/02/Pesto-Pasta_0.jpg"
     },
     {
       "id": 4,
       "recipeName": "Egg-Roll",
-      "ingredients": "",
+      "ingredients": "Vegetable Oil, Pork, Salt, Pepper, Garlic, Ginger, ColeSlaw Mix Greens, Green Onions, Soy Sauce, Sesame Oil, Egg Roll Wrappers, Eggs",
       "link": "https://www.dinneratthezoo.com/homemade-egg-rolls/",
-      "YTLink": "https://www.youtube.com/watch?v=QanLLhaeJRw",
+      "yTLink": "https://www.youtube.com/watch?v=QanLLhaeJRw",
       "imgLink": "https://www.cookingclassy.com/wp-content/uploads/2019/09/Egg-Rolls-8.jpg"
     },
     {
       "id": 5,
       "recipeName": "Chicken Curry",
-      "ingredients": "",
+      "ingredients": "Oil, Garlic, Ginger, Onion, Chicken, Curry Powder, Cocunut Milk, Chicken Stock, Salt, Peas, Coriander, Cilantro Leaves",
       "link": "https://www.recipetineats.com/chicken-curry/",
-      "YTLink": "https://www.youtube.com/watch?v=87gx9-8ksJU",
+      "yTLink": "https://www.youtube.com/watch?v=87gx9-8ksJU",
       "imgLink": "https://www.cookingclassy.com/wp-content/uploads/2018/08/chicken-curry-11.jpg"
     },
     {
       "id": 6,
       "recipeName": "Thai Peanut Curry",
-      "ingredients": "",
+      "ingredients": "Coconut Oil, Onion, Ginger, Garlic, Thai Curry Paste, Soy Sauce, Coconut Milk, Broth, Peanut Butter, Carrots, Red Pepper, Kale, Salt",
       "link": "https://www.theendlessmeal.com/thai-peanut-curry/",
-      "YTLink": "https://www.youtube.com/watch?v=F_dYsfrBKZo",
+      "yTLink": "https://www.youtube.com/watch?v=F_dYsfrBKZo",
       "imgLink": "https://urbanblisslife.com/wp-content/uploads/2014/09/Thai-Peanut-Curry-CloseUp-Side.jpg"
     },
     {
       "id": 7,
       "recipeName": "Hamburger",
-      "ingredients": "",
+      "ingredients": "Ground Beef, Saltine Crackers, Eggs, Worcestershire Sauce, Milk, Salt, Pepper, Garlic, Onion",
       "link": "https://www.aspicyperspective.com/best-hamburger-patty-recipe/",
-      "YTLink": "https://www.youtube.com/watch?v=iM_KMYulI_s",
+      "yTLink": "https://www.youtube.com/watch?v=iM_KMYulI_s",
       "imgLink": "https://assets.epicurious.com/photos/57c5c6d9cf9e9ad43de2d96e/master/pass/the-ultimate-hamburger.jpg"
     },
     {
       "id": 8,
       "recipeName": "Gravy and Biscuits",
-      "ingredients": "",
+      "ingredients": "Buttermilk Biscuits, Sausage, Flour, Milk, Salt, Pepper",
       "link": "https://www.allrecipes.com/recipe/216391/easy-sausage-gravy-and-biscuits/",
-      "YTLink": "https://www.youtube.com/watch?v=5awWcEEofVQ",
+      "yTLink": "https://www.youtube.com/watch?v=5awWcEEofVQ",
       "imgLink": "https://hips.hearstapps.com/del.h-cdn.co/assets/17/38/1506017532-sausage-gravy.jpg"
     },
     {
       "id": 9,
       "recipeName": "Birria Tacos",
-      "ingredients": "",
+      "ingredients": "Water, Chuck Roast, Short Ribs, Onion, Carot, Bay Leaves, Guajillo Chilles, Chicken Boullion, Chili Powder, Mexican Oregano, Ground Cumin, Salt",
       "link": "https://houseofyumm.com/beef-birria-and-birria-tacos/",
-      "YTLink": "https://www.youtube.com/watch?v=1nHvSLi1sWs",
+      "yTLink": "https://www.youtube.com/watch?v=1nHvSLi1sWs",
       "imgLink": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-202104-birriatacos-014-1619806491.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*"
     },
     {
@@ -69,29 +61,15 @@
       "recipeName": "Tamale",
       "ingredients": "Masa, Beef Broth, Baking Powder, Salt, Cumin, Lard, Dried Corn Husks",
       "link": "https://tastesbetterfromscratch.com/mexican-tamales/",
-      "YTLink": "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
+      "yTLink": "https://www.youtube.com/watch?v=akA_Z9Xmnvc",
       "imgLink": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Chicken-Tamales_EXPS_HC17_50905_C12_16_2b.jpg"
-    },
-    {
-      "recipeName": "Steak au Poivre",
-      "ingredients": "Butter, Filet, Salt, Pepper, Garlic, Thyme",
-      "imgLink": "https://kitchenencounters.typepad.com/.a/6a0120a8551282970b022ad3bb1105200b-800wi",
-      "YTLink": "https://www.youtube.com/watch?v=DUlKR0gjaX4&t=758s",
-      "id": 11
     },
     {
       "recipeName": "Fish and Chips",
       "ingredients": "Flour, Corn Starch, Baking Powder, Salt, Pepper, Beer, Cold Sparkling Water, Fish Filet",
       "imgLink": "https://www.thespruceeats.com/thmb/qR6tPkEHv4wAzGx_67EowljCVtU=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-fish-and-chips-recipe-434856-Hero-5b61b89346e0fb00500f2141.jpg",
-      "YTLink": "https://www.youtube.com/watch?v=qHl1MoXPXz0",
+      "yTLink": "https://www.youtube.com/watch?v=qHl1MoXPXz0",
       "id": 12
-    },
-    {
-      "recipeName": "Pizza",
-      "ingredients": "Water, Sugar, Yeast, Flour, Kosher Salt, Extra-Virgin Olive Oil",
-      "imgLink": "https://img.buzzfeed.com/buzzfeed-static/static/2018-07/12/13/asset/buzzfeed-prod-web-06/sub-buzz-1716-1531418025-2.png?downsize=600:*&output-format=auto&output-quality=auto",
-      "YTLink": "https://www.youtube.com/watch?v=sv3TXMSv6Lw",
-      "id": 13
     }
   ]
 }
