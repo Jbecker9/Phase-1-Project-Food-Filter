@@ -40,10 +40,10 @@ function addImgBar(rec){
         document.body.append(imgBarBox)
                 const imgLi = document.createElement("ul")
                     imgLi.className = "img-row"
-                    imgBarBox.append(imgLi)
+                    imgBarBox.appendChild(imgLi)
                 const imgPic = document.createElement("img")
                     imgPic.src = rec.imgLink
-                    imgPic.id = rec.id
+                    const imgPicId = imgPic.id = rec.id
                     imgPic.style.width = '150px'
                     imgPic.style.height = '150px'
                     imgPic.addEventListener("click",() => {
@@ -71,6 +71,20 @@ function addImgBar(rec){
                 const imgName = document.createElement('h3')
                     imgName.innerText = rec.recipeName
                     imgLi.append(imgName)
+                const deleteRec = document.createElement("h4")
+                    deleteRec.innerHTML = ' DELETE '
+                    deleteRec.style.color = "red"
+                    imgLi.append(deleteRec)
+                deleteRec.addEventListener('click', () => {
+                    fetch(`http://localhost:3000/Recipes/${rec.id}`,{
+                        method: 'DELETE',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        }
+                    })
+                    .then(response => response.json())
+                    imgBarBox.removeChild(imgLi)
+                })
             }
         // Render All Images
 
@@ -109,7 +123,8 @@ function userRecipe(){
         submitNewRec.innerText = "Show off your recipe!"
         userForm.appendChild(submitNewRec)
         userForm.addEventListener("submit", (e) => {
-            addImgBar(e)
+            e.preventDefault()
+            postNewRecipe(e)
             // postNewRecipe(e)
         })
         // center form
@@ -118,6 +133,7 @@ function userRecipe(){
 }
 
 function postNewRecipe(event){
+    event.preventDefault()
     let recObject = {
         recipeName: event.target.nameInput.value,
         ingredients: event.target.ingInput.value,
@@ -133,5 +149,5 @@ function postNewRecipe(event){
         body: JSON.stringify(recObject)
     })
         .then(resp => resp.json())
-        .then()
+        .then(data => addImgBar(data))
 }

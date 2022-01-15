@@ -17,14 +17,6 @@
       "imgLink": "https://recipetineats.com/wp-content/uploads/2019/02/Pesto-Pasta_0.jpg"
     },
     {
-      "id": 3,
-      "recipeName": "Stir-Fry",
-      "ingredients": "",
-      "link": "https://www.momontimeout.com/easy-chicken-stir-fry-recipe/",
-      "YTLink": "https://www.youtube.com/watch?v=L0d3MfTTnTY",
-      "imgLink": "https://cafedelites.com/wp-content/uploads/2018/03/Sesame-Beef-Stir-Fry-4.jpg"
-    },
-    {
       "id": 4,
       "recipeName": "Egg-Roll",
       "ingredients": "",
@@ -86,6 +78,20 @@
       "imgLink": "https://kitchenencounters.typepad.com/.a/6a0120a8551282970b022ad3bb1105200b-800wi",
       "YTLink": "https://www.youtube.com/watch?v=DUlKR0gjaX4&t=758s",
       "id": 11
+    },
+    {
+      "recipeName": "Fish and Chips",
+      "ingredients": "Flour, Corn Starch, Baking Powder, Salt, Pepper, Beer, Cold Sparkling Water, Fish Filet",
+      "imgLink": "https://www.thespruceeats.com/thmb/qR6tPkEHv4wAzGx_67EowljCVtU=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-fish-and-chips-recipe-434856-Hero-5b61b89346e0fb00500f2141.jpg",
+      "YTLink": "https://www.youtube.com/watch?v=qHl1MoXPXz0",
+      "id": 12
+    },
+    {
+      "recipeName": "Pizza",
+      "ingredients": "Water, Sugar, Yeast, Flour, Kosher Salt, Extra-Virgin Olive Oil",
+      "imgLink": "https://img.buzzfeed.com/buzzfeed-static/static/2018-07/12/13/asset/buzzfeed-prod-web-06/sub-buzz-1716-1531418025-2.png?downsize=600:*&output-format=auto&output-quality=auto",
+      "YTLink": "https://www.youtube.com/watch?v=sv3TXMSv6Lw",
+      "id": 13
     }
   ]
 }
