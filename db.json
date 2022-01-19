@@ -65,11 +65,11 @@
       "imgLink": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Chicken-Tamales_EXPS_HC17_50905_C12_16_2b.jpg"
     },
     {
-      "recipeName": "Fish and Chips",
-      "ingredients": "Flour, Corn Starch, Baking Powder, Salt, Pepper, Beer, Cold Sparkling Water, Fish Filet",
-      "imgLink": "https://www.thespruceeats.com/thmb/qR6tPkEHv4wAzGx_67EowljCVtU=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/best-fish-and-chips-recipe-434856-Hero-5b61b89346e0fb00500f2141.jpg",
-      "yTLink": "https://www.youtube.com/watch?v=qHl1MoXPXz0",
-      "id": 12
+      "recipeName": "Pizza",
+      "ingredients": "Water, Sugar, Yeast, Flour, Kosher Salt, Extra-Virgin Olive Oil",
+      "imgLink": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimagesvc.meredithcorp.io%2Fv3%2Fmm%2Fimage%3Furl%3Dhttps%253A%252F%252Fstatic.onecms.io%252Fwp-content%252Fuploads%252Fsites%252F19%252F2014%252F07%252F10%252Fpepperoni-pizza-ck-x.jpg&q=85",
+      "yTLink": "https://www.youtube.com/watch?v=sv3TXMSv6Lw",
+      "id": 13
     }
   ]
 }

@@ -1,15 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
     addTitle()
     addSubtitle()
+    createSelectedRecipe()
+    userRecipe()
     fetch("http://localhost:3000/Recipes")
     .then(resp => resp.json())
     .then(recipeData => recipeData.forEach(recipe => {
         addImgBar(recipe)
     }))
-    
-    createSelectedRecipe()
-    userRecipe()
 })
+
 
 function removeAllChildNodes(parent){
     while (parent.firstChild){
@@ -96,7 +96,6 @@ function addImgBar(rec){
                             'Content-Type': 'application/json'
                         }
                     })
-                    .then(response => response.json())
                     imgBarBox.removeChild(imgLi)
                 })
             }
@@ -163,3 +162,23 @@ function postNewRecipe(event){
         .then(resp => resp.json())
         .then(data => addImgBar(data))
 }
+
+
+// const arr = ['Cake', 'caramels', 'muffin', 'lemon', 'drops', 'chocolate.', 'Tootsie', 'roll', 'lemon', 'drops', 'muffin', 'danish', 'lollipop.', 'Jelly', 'halvah', 'croissant', 'sesame', 'snaps', 'bonbon', 'powder.', 'Tart', 'jelly', 'beans', 'apple', 'pie', 'brownie', 'wafer', 'fruitcake', 'halvah', 'sweet', 'roll', 'bonbon.', 'Soufflé', 'brownie', 'sugar', 'plum', 'halvah', 'powder', 'danish.', 'Chupa', 'chups', 'cookie', 'cupcake', 'wafer', 'sweet', 'roll', 'dragée', 'icing.', 'Cheesecake', 'toffee', 'cupcake', 'tiramisu', 'carrot', 'cake', 'jujubes.', 'Powder', 'tiramisu', 'gingerbread', 'pastry', 'chocolate', 'pastry', 'soufflé', 'candy', 'canes', 'carrot', 'cake.', 'Jelly-o', 'biscuit', 'oat', 'cake', 'gummi', 'bears', 'sweet', 'roll', 'cotton', 'candy', 'carrot', 'cake', 'candy', 'canes.']
+
+// // -Itterate through
+// // -collect each string
+// // -count the number of letters inside the string
+// // -add to previous string
+// // -move on to the next string
+// // repeat process
+// // -continue to end
+
+// let lenArr = []
+
+// arr.forEach(string => {
+//     console.log(string.length)
+// })
+
+
+
